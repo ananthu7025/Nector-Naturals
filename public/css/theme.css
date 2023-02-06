@@ -3,11 +3,13 @@
 
 @font-face {
     font-family: Helvetica-bold, Arial, sans-serif;
+    src: url(fonts/helvetica-bold.ttf);
     font-weight: 900;
 }
 
 @font-face {
     font-family: Helvetica-normal, Arial, sans-serif;
+    src: url(fonts/helvetica-normal.ttf);
     font-weight: 400;
 }
 
@@ -1416,15 +1418,14 @@ p {
 
 /*--------- 1.12 Breadcrumb Starts ---------- */
 .breadcrumb-bg {
-    background-image: url(../public/img/breadcrumb.jpg);
-    
+    background-image: url("../img/extra/breadcrumb-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 0 100px;
 }
 
 .breadcrumb-bg.bg-2 {
-    background-image: url(../public/img/breadcrumb.jpg);
+    background-image: url("../img/extra/breadcrumb-2.jpg");
     text-align: center;
 }
 
@@ -2264,7 +2265,7 @@ p {
 }
 
 .slide-2 .slide-title2 .sub-title {
-    background-image: url(../public/img/icons/slide-txt-bg-1.png);
+    background-image: url("../img/icons/slide-txt-bg-1.png");
     background-position: center center;
     background-repeat: no-repeat;
     color: #fff;
@@ -2315,7 +2316,7 @@ p {
 /*----- Slide-3 -------- */
 
 .slide-3 .slide-title2 .sub-title {
-  background-image: url(../public/img/icons/slide-txt-bg-2.png);
+    background-image: url("../img/icons/slide-txt-bg-2.png");
     background-position: center center;
     background-repeat: no-repeat;
     color: #f4c300;
@@ -4273,7 +4274,7 @@ blockquote {
         8 - COMINGSOON CSS ENDS 
 ********************************/
 .coming-wrap {
-    background-image: url(../public/img/slider0.png);
+    background-image: url(../img/slider/slide-5.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -4445,14 +4446,14 @@ blockquote {
 }
 
 .subscribe-me .modal-content {
-    /* background-image: url(../img/extra/subscribe.jpg); */
+    background-image: url(../img/extra/subscribe.jpg);
     border-radius: 0;
     background-position: center bottom;
 }
 
 .subscribe-me .popup-cls,
 .sb-close-btn {
-    background-image: url(../public/img/extra/close-bg.png);
+    background-image: url("../img/extra/close-bg.png");
     font-size: 20px;
     height: 50px;
     opacity: 1;
